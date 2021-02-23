@@ -608,6 +608,6 @@ const mockEpisodeData = {
   },
 };
 
-test("Sanity test", () => {
+test("renders without errors", () => {
   render(<Episodes episodes={mockEpisodeData._embedded.episodes} />);
 });
